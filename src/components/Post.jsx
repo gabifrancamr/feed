@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable react/no-unknown-property */
 import { format, formatDistanceToNow } from "date-fns";
 import ptBR from "date-fns/locale/pt-BR";
@@ -8,7 +9,7 @@ import styles from "./Post.module.css";
 export function Post({ author, content, publishedAt }) {
   const publishedDateFormatted = format(
     publishedAt,
-    "d 'de' LLLL 'às' HH:mmh",
+    "d 'de' LLLL 'às' HH:mm'h'",
     {
       locale: ptBR,
     }
