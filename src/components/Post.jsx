@@ -4,6 +4,7 @@ import { Comment } from "./Comment";
 import styles from "./Post.module.css";
 
 export function Post() {
+  
   return (
     <article className={styles.post}>
       <header>
@@ -15,7 +16,7 @@ export function Post() {
           </div>
         </div>
 
-        <time dataTime="2023-12-26 08:13:28">Publicado há 1h</time>
+        <time datatime="2023-12-26 08:13:28">Publicado há 1h</time>
       </header>
 
       <div className={styles.content}>

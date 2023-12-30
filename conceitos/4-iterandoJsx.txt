@@ -1,0 +1,26 @@
+forEach ou map?
+ForEach: 
+{posts.forEach((post) => {
+    return (
+      <Post 
+        key={post.id}
+        author={post.author}
+        content={post.content}
+        publishedAt={post.publishedAt}
+    />
+    )
+})}
+O forEach percorre um array, só que o método forEach não tem nenhum retorno. Então usando o código acima não vai aparecer nenhum Post, nada vai ser exibido em tela
+
+{posts.map((post) => {
+    return (
+      <Post 
+        key={post.id}
+        author={post.author}
+        content={post.content}
+        publishedAt={post.publishedAt}
+    />
+    )
+})}
+
+Já o map retorna algo. Então sempre que for fazer uma iteração no JSX, usaremos o map, porque o map tem retorno
