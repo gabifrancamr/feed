@@ -1,0 +1,14 @@
+O ReactJS divide a interface de usuário em pedaços de código isolados e reutilizáveis, conhecidos como componentes. Os componentes do React funcionam de maneira semelhante às funções JavaScript, pois aceitam entradas arbitrárias chamadas propriedades ou props. Podem ser repetidos com informações diferentes. É uma função que retorna HTML
+
+Os elementos React retornados determinam como a interface do usuário ficará no lado do cliente. Aqui está um exemplo de um componente de função que retorna um elemento React:
+
+function Welcome(props) {
+  return h1>Olá, {props.name}/h1>;
+}
+É possível ter quantos componentes forem necessários sem sobrecarregar seu código.
+
+Módulos no React: Default Exports e Named Exports
+
+D.E = Você pode dar um nome diferente na importação, mas isso pode causar confusão
+N.E = Usamos o mesmo nome na exportação e na importação
+

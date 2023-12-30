@@ -1,0 +1,19 @@
+O que é react?
+O ReactJS é uma das bibliotecas de JavaScript mais populares para desenvolvimento de aplicativos web ou para dispositivos móveis. Criado pelo Facebook, o React contém uma coleção de trechos de código de JavaScript reutilizáveis chamados componentes, usados para a construção da interface do usuário (UI).
+
+A mágica está em criar o HTML e tudo o que o usuário interage a partir do JavaScript
+
+Fast Refresh - mudar código e mudar no navegador de forma instântanea 
+
+O que é JSX?
+JS + XML
+Arquivo JS que contém HTML
+O JSX é uma extensão de sintaxe JavaScript usada na criação do elemento React. Os desenvolvedores a empregam para incorporar código HTML em objetos JavaScript. Como o JSX aceita a incorporação de funções e expressões JavaScript válidas, ele pode simplificar estruturas de código complexas.
+
+JavaScript constrói interface da aplicação e tem controle sobre ela
+
+O que é o código main.jsx? 
+DOM - Document Object Model
+ReactDOM.createRoot é utilizado para criar um novo "root" para a renderização (mostrar em tela). O método createRoot recebe um elemento HTML como argumento. Neste caso, ele procura um elemento com o ID 'root' no HTML do documento.
+O método render é chamado no root criado e recebe como argumento o JSX que representa a aplicação. O JSX está envolto em <React.StrictMode>. StrictMode é uma ferramenta de desenvolvimento do React que ajuda a detectar práticas suspeitas no código.
+O conteúdo a ser renderizado é o componente App.
