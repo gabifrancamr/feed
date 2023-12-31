@@ -30,7 +30,7 @@ const posts = [
     author: {
       avatarUrl: "https://github.com/maykbrito.png",
       name: "Mayk Brito",
-      role: "Educador rocketseat",
+      role: "Educador RocketSeat",
     },
     content: [
       { type: "paragraph", content: "Fala galeraa 👋" },
