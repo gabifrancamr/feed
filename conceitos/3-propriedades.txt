@@ -1,1 +1,0 @@
-Informações que podemos passar para os componentes. Um mesmo componente pode ter informações diferentes quando usamos propriedades. Quando queremos usar as propriedades, usamos chaves: {props.content}

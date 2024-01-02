@@ -1,5 +1,0 @@
-Programação imperativa = dizemos para o software o que deve ser feito (passo-a-passo)
-ex: receita de bolo
-
-Programação declarativa =  declaro o resultado que espero. Quais as condições para  eu ter resultado final
-"quando o forno estiver pronto, eu posso colocar a masssa para assar"
