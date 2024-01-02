@@ -10,7 +10,7 @@ const posts = [
     id: 1,
     author: {
       avatarUrl: "https://github.com/gabifrancamr.png",
-      name: "Gabi França",
+      name: "Gabriela França",
       role: "Web Developer",
     },
     content: [
